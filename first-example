@@ -1,0 +1,6 @@
+import seaborn as sns
+sns.set()
+
+x = np.linspace(0, 10, 500)
+y = np.random.randn(100)
+plt.plot(x,y)
